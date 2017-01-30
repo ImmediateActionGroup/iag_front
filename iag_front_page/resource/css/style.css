@@ -103,20 +103,19 @@ button:active {
 
 .ph-body ul li {
 	margin-left: -40px;
-	width: 100%;
 	color: #6B6B6B;
 	font-size: 14px;
 	line-height: 28px;
 	letter-spacing: 1px;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	list-style: none;
 }
 
 .ph-body ul li a {
 	text-decoration: none;
 	color: #6B6B6B;
 	font-size: 14px;
-	line-height: 28px;
 	overflow: hidden;
 	cursor: pointer;
 	word-break: keep-all;
@@ -131,7 +130,13 @@ button:active {
 	display: inline-block;
 	margin-bottom: 5px;
 	margin-right: 4px;
-	font-size: 50%;
+	font-size: 12px;
+}
+
+.label:hover {
+	transform: translateX(30px) scale(1.6) rotateZ(370deg);
+	-webkit-transform: translateX(30px) scale(1.6) rotateZ(370deg);
+	box-shadow: 0 0 5px #8C8C8C;
 }
 
 .art-list {
@@ -178,6 +183,7 @@ button:active {
 }
 
 .article {
+	position: relative;
 	width: 100%;
 	height: auto;
 	font-size: 14px;
@@ -188,14 +194,13 @@ button:active {
 }
 
 .article:hover {
-	border-bottom: none;
+	/*border-bottom: none;*/
+	border-radius: 10px;
 	box-shadow: 0 0 10px 3px #ccc;
+	transform: translateX(10px) scale(1);
+	-webkit-transform: translateX(10px) scale(1);
+	background-color: #fff;
 }
-
-
-/*.article:last-child {
-	border-bottom: none;
-}*/
 
 .art-left {
 	float: left;
@@ -393,4 +398,11 @@ button:active {
 .register>a:hover,
 .register>a:active {
 	text-shadow: 0 0 1px #336699;
+}
+/*重置swiper*/
+.swiper-pagination-bullet-active{
+	background: #336699;
+}
+.swiper-container{
+	z-index: 0;
 }
