@@ -4,11 +4,13 @@
 	font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, STHeiti, 华文细黑, sans-serif;
 	transition: all ease-in-out 0.4s;
 }
-.logo{
+
+.logo {
 	display: inlin-block;
 	height: 50px;
 	width: 100px;
-	background: url(../img/logo.png) center center no-repeat;
+	/*background: url(../img/logo.png) center center no-repeat;*/
+	background: url(../img/logo_1.png) center center no-repeat;
 }
 
 ul li {
@@ -25,10 +27,12 @@ button:active {
 .navbar-default {
 	box-shadow: 0 3px 10px 1px #f4f4f4;
 	/*background: #336699;*/
-	background-color: rgba(256,256,256,0.8);/*#a7815a*/
+	background-color: rgba(256, 256, 256, 0.8);
+	/*#a7815a*/
 	border: none;
 }
-.navbar-default .navbar-nav > li > a{
+
+.navbar-default .navbar-nav>li>a {
 	color: #a7815a!important;
 }
 
@@ -67,7 +71,7 @@ button:active {
 	border-radius: 10px;
 	box-shadow: 0 0 10px 3px #ccc;
 	transform: scale(1.009);
-	-webkit-transform: scale(1.009);	
+	-webkit-transform: scale(1.009);
 }
 
 .imgdiv img {
@@ -208,18 +212,11 @@ button:active {
 	height: auto;
 	font-size: 14px;
 	padding: 10px;
+	padding-left: 0;
+	padding-right: 0;
 	cursor: pointer;
 	border-bottom: 1px dashed #ccc;
 	transition: all ease-in-out 0.4s;
-}
-
-.article:hover {
-	/*border-bottom: none;*/
-	/*border-radius: 10px;*/
-	/*box-shadow: 0 0 10px 3px #ccc inset;
-	transform: scale(0.99);
-	-webkit-transform: scale(0.99);
-	background-color: #fff;*/
 }
 
 .art-left {
@@ -252,16 +249,27 @@ button:active {
 
 .art-time {
 	margin-top: 5px;
-	line-height: 15px;
+	line-height: 20px;
 }
 
 .art-time span {
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 .art-time a {
 	text-decoration: none;
 	color: #6B6B6B;
+}
+
+.art-time a:last-of-type {
+	margin-left: 10px;
+}
+
+.art-time a img {
+	height: 16px;
+	width: 16px;
+	border-radius: 100%;
+	vertical-align: middle;
 }
 
 
@@ -344,7 +352,7 @@ button:active {
 
 .login>a:hover,
 .login>a:active {
-	text-shadow: 0 0 1px #336699;	
+	text-shadow: 0 0 1px #336699;
 }
 
 .register {
@@ -419,10 +427,14 @@ button:active {
 .register>a:active {
 	text-shadow: 0 0 1px #336699;
 }
+
+
 /*重置swiper*/
-.swiper-pagination-bullet-active{
+
+.swiper-pagination-bullet-active {
 	background: #336699;
 }
-.swiper-container{
+
+.swiper-container {
 	z-index: 0;
 }
