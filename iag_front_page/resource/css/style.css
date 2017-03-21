@@ -4,6 +4,12 @@
 	font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, STHeiti, 华文细黑, sans-serif;
 	transition: all ease-in-out 0.4s;
 }
+.logo{
+	display: inlin-block;
+	height: 50px;
+	width: 100px;
+	background: url(../img/logo.png) center center no-repeat;
+}
 
 ul li {
 	padding: 0;
@@ -17,9 +23,13 @@ button:active {
 }
 
 .navbar-default {
-	box-shadow: 0 3px 10px 1px rgba(180, 207, 252, 0.7);
-	background: #336699;
+	box-shadow: 0 3px 10px 1px #f4f4f4;
+	/*background: #336699;*/
+	background-color: rgba(256,256,256,0.8);/*#a7815a*/
 	border: none;
+}
+.navbar-default .navbar-nav > li > a{
+	color: #a7815a!important;
 }
 
 .content {
@@ -93,11 +103,13 @@ button:active {
 	height: auto;
 	line-height: 18px;
 	font-size: 16px;
-	color: #4a4a4a;
-	color: #336699;
+	/*color: #4a4a4a;
+	color: #336699;*/
+	color: #a7815a;
 	font-weight: bold;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #336699;
+	/*border-bottom: 1px solid #336699;*/
+	border-bottom: 1px solid #a7815a;
 }
 
 .ph-body {
@@ -127,7 +139,7 @@ button:active {
 }
 
 .ph-body ul li a:hover {
-	color: #336699;
+	color: #a7815a;
 }
 
 .label {
@@ -168,10 +180,12 @@ button:active {
 	height: auto;
 	line-height: 18px;
 	font-size: 1em;
-	color: #336699;
+	/*color: #336699;*/
+	color: #a7815a;
 	font-weight: bold;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #336699;
+	/*border-bottom: 1px solid #336699;*/
+	border-bottom: 1px solid #a7815a;
 }
 
 .art-top-right {
@@ -202,10 +216,10 @@ button:active {
 .article:hover {
 	/*border-bottom: none;*/
 	/*border-radius: 10px;*/
-	box-shadow: 0 0 10px 3px #ccc inset;
+	/*box-shadow: 0 0 10px 3px #ccc inset;
 	transform: scale(0.99);
 	-webkit-transform: scale(0.99);
-	background-color: #fff;
+	background-color: #fff;*/
 }
 
 .art-left {
@@ -233,7 +247,7 @@ button:active {
 }
 
 .art-title a:hover {
-	color: #336699;
+	color: #a7815a;
 }
 
 .art-time {
