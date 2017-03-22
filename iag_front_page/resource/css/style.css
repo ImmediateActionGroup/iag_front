@@ -46,17 +46,6 @@ button:active {
 	margin-bottom: 100px;
 }
 
-.foot {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	text-align: center;
-	color: #fff;
-	font-size: 0.8em;
-	line-height: 2em;
-	background-color: #336699;
-}
-
 .imgdiv {
 	width: 100%;
 	height: auto;
@@ -64,10 +53,9 @@ button:active {
 	margin-bottom: 20px;
 	overflow: hidden;
 	transition: all ease-in-out 0.4s;
-	overflow: hidden;
 }
 
-.imgdiv:hover {
+.imgdiv:hover,.search-box:hover{
 	border-radius: 10px;
 	box-shadow: 0 0 10px 3px #ccc;
 	transform: scale(1.009);
@@ -78,6 +66,33 @@ button:active {
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
+}
+/*搜索*/
+.search-box{
+	width: 100%;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	overflow: hidden;
+	transition: all ease-in-out 0.4s;
+	overflow: hidden;
+}
+.search-input{
+	width: 68%;
+	height: 35px;
+	padding-left: 10px;
+	border-radius: 10px;
+	border: 1px solid #a7815a;
+	outline: none;
+}
+.search-btn{
+	width: 30%;
+	height: 35px;
+	border: 1px solid #a7815a;
+	background-color: #a7815a;
+	border-radius: 10px;
+	color: #fff;
+	outline: none;
 }
 
 .carousel-control {
@@ -90,7 +105,6 @@ button:active {
 	padding: 15px;
 	padding-bottom: 5px;
 	background-color: #fff;
-	/*border: 1px solid #ccc;*/
 	border-radius: 10px;
 	margin-bottom: 20px;
 	transition: all ease-in-out 0.4s;
@@ -166,17 +180,13 @@ button:active {
 	padding: 15px;
 	padding-bottom: 5px;
 	background-color: #fff;
-	/*border: 1px solid #ccc;*/
 	border-radius: 10px;
 	margin-bottom: 20px;
 	transition: all ease-in-out 0.4s;
 }
 
 .art-list:hover {
-	/*border: none;*/
 	box-shadow: 0 0 10px 3px #ccc;
-	/*transform: scale(1.009);
-	-webkit-transform: scale(1.009);*/
 }
 
 .art-top {
@@ -184,11 +194,9 @@ button:active {
 	height: auto;
 	line-height: 18px;
 	font-size: 1em;
-	/*color: #336699;*/
 	color: #a7815a;
 	font-weight: bold;
 	padding-bottom: 10px;
-	/*border-bottom: 1px solid #336699;*/
 	border-bottom: 1px solid #a7815a;
 }
 
@@ -200,7 +208,7 @@ button:active {
 	color: #E97E84;
 }
 
-.art-body {
+.art-body{
 	width: 100%;
 	height: auto;
 	font-size: 14px;
@@ -271,8 +279,20 @@ button:active {
 	border-radius: 100%;
 	vertical-align: middle;
 }
-
-
+.art-pages {
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+	text-align: center;
+}
+.pagination>li>a,.pagination>li>span{
+	color: #a7815a;
+}
+.pagination>li>a:hover{
+	font-weight: bold;
+	color: #a7815a;
+	box-shadow: 0 0 5px #a7815a;
+}
 /*login CSS*/
 
 .dropdown-toggle {
