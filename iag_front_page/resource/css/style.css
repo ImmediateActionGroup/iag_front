@@ -453,7 +453,7 @@ button:active {
 	visibility: visible;
 	-webkit-transform: scaleX(1);
 	-o-transform: scaleX(1);
-	transform: scaleX(1);
+	transform: scaleX(1);	
 }
 
 .content {
@@ -590,17 +590,50 @@ button:active {
 	color: #a7815a;
 }
 
-.label {
+.lab {
 	display: inline-block;
 	margin-bottom: 5px;
 	margin-right: 4px;
 	font-size: 12px;
+	padding: 5px;
+	border-radius: 5px;
+	color: #a7815a;
+	font-weight: bold;
+	line-height: 20px;
+	border: 1px solid #a7815a;
 }
 
-.label:hover {
+/*.lab:hover {
+	color: #fff;
+	background-color: #a7815a;
 	transform: translateX(30px) scale(1.6) rotateZ(370deg);
 	-webkit-transform: translateX(30px) scale(1.6) rotateZ(370deg);
-	box-shadow: 0 0 5px #8C8C8C;
+	box-shadow: 0 0 5px #a7815a;
+}*/
+.lab:hover {
+	color: #fff;
+	border-radius: 100%;
+	background-color: #a7815a;
+	transform: scale(1.6) rotateZ(370deg);
+	-webkit-transform: scale(1.6) rotateZ(370deg);
+	box-shadow: 0 0 5px rgba(167,129,90,0.4);
+}
+.lab2 {
+	display: inline-block;
+	margin-bottom: 5px;
+	margin-right: 4px;
+	font-size: 12px;
+	padding: 3px;
+	border-radius: 5px;
+	color: #a7815a;
+	font-weight: bold;
+	line-height: 12px;
+	border: 1px solid #a7815a;
+	background-color: rgba(167,129,90,0.2);
+}
+.lab2:hover {
+	color: #fff;
+	background-color: rgba(167,129,90,0.7);
 }
 
 .art-list {
@@ -675,6 +708,10 @@ button:active {
 	-webkit-transition: all .8s ease-in-out 0s;
 	-o-transition: all .8s ease-in-out 0s;
 	transition: all .8s ease-in-out 0s;
+    background: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet); /* 标准的语法（必须放在最后） */
 }
 
 .article:hover:before {
@@ -753,6 +790,10 @@ button:active {
 	font-weight: bold;
 	color: #a7815a;
 	box-shadow: 0 0 5px #a7815a;
+}
+.pagination > li{
+	display: inline-block;
+	padding-right: 10px;
 }
 
 
