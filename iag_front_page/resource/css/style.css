@@ -623,7 +623,7 @@ button:active {
 	width: 100%;
 	height: auto;
 	line-height: 18px;
-	font-size: 1em;
+	font-size: 18px;
 	color: #a7815a;
 	font-weight: bold;
 	padding-bottom: 10px;
@@ -700,7 +700,7 @@ button:active {
 .art-title {
 	margin-right: 10px;
 	line-height: 18px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .art-title a {
