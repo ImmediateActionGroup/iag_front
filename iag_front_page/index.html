@@ -390,7 +390,7 @@
 								</div>
 								<div style="clear: both;"></div>
 							</div>
-						</div>						
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4">
@@ -561,10 +561,12 @@
 		<script type="text/javascript" src="resource/js/bbs.js"></script>
 		<script>
 			var mySwiper = new Swiper('.swiper-container', {
-				autoplay: 5000, //可选选项，自动滑动
-				effect: 'fade',
+				autoplay: 3000, //可选选项，自动滑动
+				effect: 'coverflow',
+				loop: true,
 				pagination: '.swiper-pagination',
 				paginationClickable: true,
+				mousewheelControl: true,
 			})
 		</script>
 
