@@ -10,7 +10,6 @@
 		<title>IAG</title>
 		<link rel="stylesheet" href="resource/others/swiper/swiper.css" />
 		<link rel="stylesheet" href="resource/css/bootstrap.css" />
-		<link rel="stylesheet" href="resource/others/select2/css/select2.css" />
 		<link rel="stylesheet" href="resource/css/style.css" />
 	</head>
 
@@ -98,141 +97,240 @@
 									<button class="btn-collect"><i class="glyphicon glyphicon-star"></i> 收藏</button>
 									<button class="btn-attention"><i class="glyphicon glyphicon-heart"></i> 关注作者</button>
 								</div>
-								
+								<div class="comment-box">
+									<div class="comment-top art-top">
+										<spanl class="glyphicon glyphicon-comment"> 评论</span>
+									</div>
+									<div class="comment-edit">
+										<div class="comment-edit-user">
+											<img src="resource/img/user.png" alt="头像" />
+										</div>
+										<div class="comment-edit-form">
+											<textarea class="comment-con-input" maxlength="140" id="comment-con-input" name="comment-con-input" oninput="changeText() "></textarea>
+											<div class="comment-con-bar ">
+												<span class="comment-fontsize">已输入0个字</span>
+												<button class="comment-send ">发送</button>
+											</div>
+										</div>
+										<div class="clear-float "></div>
+									</div>
+									<div class="comment-con ">
+										<div class="comment-list ">
+											<div class="comment-list-user ">
+												<img src="resource/img/user.png " />
+												<span class="uesr-name ">小新</span>
+											</div>
+											<div class="comment-list-user-reply ">
+												<p>受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！</p>
+												<span class="comment-time ">2017-04-07 12:12:23</span><span class="comment-delete ">删除</span><span class="comment-reply ">回复</span><span class="comment-report ">举报</span>
+											</div>
+											<div class="clear-float "></div>
+										</div>
+										<div class="comment-list ">
+											<div class="comment-list-user ">
+												<img src="resource/img/user.png " />
+												<span class="uesr-name ">夏目</span>
+											</div>
+											<div class="comment-list-user-reply ">
+												<p><span class="comment-reply-user ">@小新</span>感谢评论！</p>
+												<span class="comment-time ">2017-04-07 12:12:23</span><span class="comment-delete ">删除</span><span class="comment-reply ">回复</span><span class="comment-report ">举报</span>
+											</div>
+											<div class="clear-float "></div>
+										</div>
+										<div class="comment-list ">
+											<div class="comment-list-user ">
+												<img src="resource/img/user.png " />
+												<span class="uesr-name ">小新</span>
+											</div>
+											<div class="comment-list-user-reply ">
+												<p>受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！受益匪浅的文章，收藏了！</p>
+												<span class="comment-time ">2017-04-07 12:12:23</span><span class="comment-delete ">删除</span><span class="comment-reply ">回复</span><span class="comment-report ">举报</span>
+											</div>
+											<div class="clear-float "></div>
+										</div>
+										<div class="comment-list ">
+											<div class="comment-list-user ">
+												<img src="resource/img/user.png " />
+												<span class="uesr-name ">夏目</span>
+											</div>
+											<div class="comment-list-user-reply ">
+												<p><span class="comment-reply-user ">@小新</span>感谢评论！</p>
+												<span class="comment-time ">2017-04-07 12:12:23</span><span class="comment-delete ">删除</span><span class="comment-reply ">回复</span><span class="comment-report ">举报</span>
+											</div>
+											<div class="clear-float "></div>
+										</div>
+										<div class="comment-more "><span class="glyphicon glyphicon-menu-down "></span> 加载更多</div>
+										<div class="comment-more-hide "><span class="glyphicon glyphicon-menu-up "></span> 点击收起</div>
+									</div>
+								</div>
+
 							</div>
-							<div style="clear: both;"></div>
+							<div style="clear: both; "></div>
 						</div>
 
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="ph">
-						<div class="ph-top"><span class="glyphicon glyphicon-user"></span> 作者简介</div>
-						<div class="ph-body user-box">
-							<div class="user-top">
-								<img src="resource/img/user.png" />
+				<div class="col-lg-4 col-md-4 ">
+					<div class="ph ">
+						<div class="ph-top "><span class="glyphicon glyphicon-user "></span> 作者简介</div>
+						<div class="ph-body user-box ">
+							<div class="user-top ">
+								<img src="resource/img/user.png " />
 							</div>
-							<div class="user-con">
-								<span title="昵称"><i class="glyphicon glyphicon-user"></i> 夏目友人</span>
-								<span title="所在地"><i class="glyphicon glyphicon-map-marker"></i> 广东 深圳</span>
-								<span title="等级"><i class="glyphicon glyphicon-bookmark"></i> 打遍天下无敌手</span>
-								<span title="联系方式"><i class="glyphicon glyphicon-envelope"></i> 72xiaoxin@163.com</span>
-								<span title="职位"><i class="glyphicon glyphicon-tasks"></i> JAVA工程师</span>
-								<span title="最近登录时间"><i class="glyphicon glyphicon-time"></i> 2017-06-26</span>
-								<span title="一句话" class="user-oneword">明天上线，赶紧了！！！明天上线，赶紧了！！！明天上线，赶紧了！！！</span>
+							<div class="user-con ">
+								<span title="昵称 "><i class="glyphicon glyphicon-user "></i> 夏目友人</span>
+								<span title="所在地 "><i class="glyphicon glyphicon-map-marker "></i> 广东 深圳</span>
+								<span title="等级 "><i class="glyphicon glyphicon-bookmark "></i> 打遍天下无敌手</span>
+								<span title="联系方式 "><i class="glyphicon glyphicon-envelope "></i> 72xiaoxin@163.com</span>
+								<span title="职位 "><i class="glyphicon glyphicon-tasks "></i> JAVA工程师</span>
+								<span title="最近登录时间 "><i class="glyphicon glyphicon-time "></i> 2017-06-26</span>
+								<span title="一句话 " class="user-oneword ">明天上线，赶紧了！！！明天上线，赶紧了！！！明天上线，赶紧了！！！</span>
 							</div>
-							<div class="user-foot">
-								<button><i class="glyphicon glyphicon-home"></i> 访问主页</button>
-								<button><i class="glyphicon glyphicon-heart"></i> 关注</button>
-								<button><i class="glyphicon glyphicon-comment"></i> 私信</button>
+							<div class="user-foot ">
+								<button><i class="glyphicon glyphicon-home "></i> 访问主页</button>
+								<button><i class="glyphicon glyphicon-heart "></i> 关注</button>
+								<button><i class="glyphicon glyphicon-comment "></i> 私信</button>
 							</div>
 						</div>
 					</div>
-					<div class="ph">
-						<div class="ph-top"><span class="glyphicon glyphicon-fire"></span> TA的热门</div>
-						<div class="ph-body">
+					<div class="ph ">
+						<div class="ph-top "><span class="glyphicon glyphicon-fire "></span> TA的热门</div>
+						<div class="ph-body ">
 							<ul>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？这些编码习惯你知道吗？这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？这些编码习惯你知道吗？这些编码习惯你知道吗？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？这些编码习惯你知道吗？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？这些编码习惯你知道吗？这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？这些编码习惯你知道吗？这些编码习惯你知道吗？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？这些编码习惯你知道吗？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-screenshot"></span> 这些编码习惯你知道吗？</a>
+									<a><span class="glyphicon glyphicon-screenshot "></span> 这些编码习惯你知道吗？</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="ph">
-						<div class="ph-top"><span class="glyphicon glyphicon-tag"></span> TA关注标签</div>
-						<div class="ph-body">
-							<span class="lab lab-d">java</span>
-							<span class="lab lab-d">html</span>
-							<span class="lab lab-d">php</span>
-							<span class="lab lab-d">css</span>
-							<span class="lab lab-d">css3</span>
-							<span class="lab lab-d">C语言</span>
-							<span class="lab lab-d">数据库</span>
-							<span class="lab lab-d">平面设计</span>
+					<div class="ph ">
+						<div class="ph-top "><span class="glyphicon glyphicon-tag "></span> TA关注标签</div>
+						<div class="ph-body ">
+							<span class="lab lab-d ">java</span>
+							<span class="lab lab-d ">html</span>
+							<span class="lab lab-d ">php</span>
+							<span class="lab lab-d ">css</span>
+							<span class="lab lab-d ">css3</span>
+							<span class="lab lab-d ">C语言</span>
+							<span class="lab lab-d ">数据库</span>
+							<span class="lab lab-d ">平面设计</span>
 						</div>
 					</div>
-					<div class="ph">
-						<div class="ph-top"><span class="glyphicon glyphicon-book"></span> TA的文章</div>
-						<div class="ph-body">
+					<div class="ph ">
+						<div class="ph-top "><span class="glyphicon glyphicon-book "></span> TA的文章</div>
+						<div class="ph-body ">
 							<ul>
 								<li>
-									<a><span class="glyphicon glyphicon-cloud-download"></span> 前端入门教程大全！前端入门教程大全！</a>
+									<a><span class="glyphicon glyphicon-cloud-download "></span> 前端入门教程大全！前端入门教程大全！</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-cloud-download"></span> 前端入门教程大全！</a>
+									<a><span class="glyphicon glyphicon-cloud-download "></span> 前端入门教程大全！</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-cloud-download"></span> 前端入门教程大全！</a>
+									<a><span class="glyphicon glyphicon-cloud-download "></span> 前端入门教程大全！</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-cloud-download"></span> 前端入门教程大全！</a>
+									<a><span class="glyphicon glyphicon-cloud-download "></span> 前端入门教程大全！</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-cloud-download"></span> 前端入门教程大全！</a>
+									<a><span class="glyphicon glyphicon-cloud-download "></span> 前端入门教程大全！</a>
 								</li>
 							</ul>
 						</div>
 					</div>
-					<div class="ph">
-						<div class="ph-top"><span class="glyphicon glyphicon-globe"></span> TA最近浏览</div>
-						<div class="ph-body">
+					<div class="ph ">
+						<div class="ph-top "><span class="glyphicon glyphicon-globe "></span> TA最近浏览</div>
+						<div class="ph-body ">
 							<ul>
 								<li>
-									<a><span class="glyphicon glyphicon-flag"></span> MD规范-Material Design篇!</a>
+									<a><span class="glyphicon glyphicon-flag "></span> MD规范-Material Design篇!</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-flag"></span> MD规范-Material Design篇!？</a>
+									<a><span class="glyphicon glyphicon-flag "></span> MD规范-Material Design篇!？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-flag"></span> MD规范-Material Design篇!？</a>
+									<a><span class="glyphicon glyphicon-flag "></span> MD规范-Material Design篇!？</a>
 								</li>
 								<li>
-									<a><span class="glyphicon glyphicon-flag"></span> MD规范-Material Design篇!？</a>
+									<a><span class="glyphicon glyphicon-flag "></span> MD规范-Material Design篇!？</a>
 								</li>
 							</ul>
 						</div>
-					</div>					
+					</div>
 				</div>
 			</div>
-			<div class="col-lg-1 col-md-1"></div>
+			<div class="col-lg-1 col-md-1 "></div>
 		</div>
 
-		<script type="text/javascript" src="resource/js/jquery-3.0.0.js"></script>
-		<script type="text/javascript" src="resource/js/bootstrap.js"></script>
-		<script type="text/javascript" src="resource/others/swiper/swiper.js"></script>
-		<script type="text/javascript" src="resource/others/select2/js/select2.js"></script>
-		<script type="text/javascript" src="resource/js/bbs.js"></script>
+		<script type="text/javascript " src="resource/js/jquery-3.0.0.js "></script>
+		<script type="text/javascript " src="resource/js/bootstrap.js "></script>
+		<script type="text/javascript " src="resource/others/swiper/swiper.js "></script>
+		<script type="text/javascript " src="resource/js/jquery.browser.js "></script>
+		<script type="text/javascript " src="resource/js/jquery.qqFace.js "></script>
+		<script type="text/javascript " src="resource/js/bbs.js "></script>
 		<script>
-			$(".select2").select2({
-				placeholder: "Select a state"
+			$(".comment-more ").click(function() {
+				$(this).hide();
+				$(".comment-more-hide ").show();
 			});
+			$(".comment-more-hide ").click(function() {
+				$(this).hide();
+				$(".comment-more ").show();
+			});
+			var comment_con_input = $(".comment-con-input ");
+			comment_con_input.html("请输入不多于140字 。");
+			comment_con_input.focus(function() {
+				comment_con_input.html("");
+				comment_con_input.css("color", "#000");
+			});
+			comment_con_input.blur(function() {
+				if(comment_con_input.val() == "") {
+					comment_con_input.css("color", "#8C8C8C");
+					comment_con_input.html("请输入不多于140字。 ");
+				}
+			});
+
+			function changeText() {
+				var input_val = comment_con_input.val().replace(/\ +/g,"");
+				var input_val_1 = input_val.replace(/[\r\n]/g,"");
+				var num = input_val.length;
+				comment_con_input.val(input_val_1);
+				
+				if(num>=140){
+					$(".comment-fontsize").css("color","red");
+					$(".comment-fontsize").html("已达到140字！");
+				}else{
+					$(".comment-fontsize").css("color","#000");
+					$(".comment-fontsize").html("已输入" + num + "个字。");
+				}
+			}
 		</script>
 
 	</body>
