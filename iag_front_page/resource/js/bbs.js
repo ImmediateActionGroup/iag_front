@@ -8,7 +8,7 @@ $(document).ready(function() {
 		$(this).hide();
 		$(".comment-more ").show();
 	});
-	
+
 	//	检测移动端还是PC端
 	function IsPC() {
 		var userAgentInfo = navigator.userAgent;

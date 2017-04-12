@@ -720,11 +720,15 @@ button:active {
 	background-color: #a7815a;
 }
 
-.btn-release:hover,.comment-send:hover {
+.btn-release:hover,
+.comment-send:hover,
+.btn-art-submit:hover,
+.btn-art-save:hover {
 	transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
 	-ms-transform: scale(1.2);
+	text-decoration: none;
 }
 
 
@@ -1153,7 +1157,8 @@ button:active {
 	cursor: pointer;
 }
 
-.comment-more,.comment-more-hide {
+.comment-more,
+.comment-more-hide {
 	width: 100%;
 	line-height: 20px;
 	text-align: center;
@@ -1161,6 +1166,7 @@ button:active {
 	font-weight: bold;
 	cursor: pointer;
 }
+
 .comment-more-hide {
 	display: none;
 }
@@ -1230,7 +1236,8 @@ button:active {
 .comment-con-input:focus {
 	outline: none;
 }
-.comment-con-input-show{
+
+.comment-con-input-show {
 	display: none;
 	position: relative;
 	width: 100%;
@@ -1248,14 +1255,17 @@ button:active {
 	color: #000;
 	transition: all 0s;
 }
-.comment-con-bar{
+
+.comment-con-bar {
 	height: 30px;
 	line-height: 30px;
 }
-.comment-con-bar span{
+
+.comment-con-bar span {
 	margin-left: 10px;
 }
-.comment-con-bar button{
+
+.comment-con-bar button {
 	float: right;
 	margin-right: 10px;
 	color: #fff;
@@ -1263,9 +1273,10 @@ button:active {
 	border-radius: 5px;
 	padding: 0px 20px;
 	margin-bottom: 5px;
-	background-color: #a7815a;	
+	background-color: #a7815a;
 }
-.comment-emotions{
+
+.comment-emotions {
 	display: inline-block;
 	width: 24px;
 	height: 24px;
@@ -1273,11 +1284,13 @@ button:active {
 	background-size: contain;
 	vertical-align: middle;
 }
-.comment-emotions:hover{
+
+.comment-emotions:hover {
 	color: #a7815a;
 	cursor: pointer;
 }
-#facebox{
+
+#facebox {
 	margin-left: 5px;
 	margin-top: 10px;
 	padding: 10px;
@@ -1285,19 +1298,115 @@ button:active {
 	border: 1px solid #a7815a;
 	background-color: #fff;
 }
+
 #facebox:before {
 	position: absolute;
 	content: "";
 	top: -8px;
-    left: 8px;
-    width: 15px;
-    height: 15px;
+	left: 8px;
+	width: 15px;
+	height: 15px;
 	transform: rotate(45deg);
 	border-left: 1px solid #a7815a;
 	border-top: 1px solid #a7815a;
 	z-index: 0;
 	background-color: #fff;
 }
-#facebox td:hover{
+
+#facebox td:hover {
 	background-color: #ccc;
+}
+
+.art-title-input,
+.art-keyword-input {
+	width: 60%;
+	padding: 5px;
+	border: 1px solid #a7815a;
+	border-radius: 5px;
+	margin-top: 20px;
+	font-size: 16px;
+	outline: none;
+}
+
+
+/*重写编辑器的css*/
+
+.editormd {
+	margin-top: 20px;
+	color: #a7815a!important;
+	border: 1px solid #a7815a;
+	border-radius: 5px;
+}
+
+.editormd-toolbar {
+	border-bottom: 1px solid #a7815a;
+}
+
+.CodeMirror-gutters {
+	background-color: rgba(167, 129, 90, 0.1)!important;
+	border-right: 1px solid #a7815a!important;
+}
+
+.CodeMirror {
+	border-right: 1px solid #a7815a!important;
+}
+
+.editormd-menu i {
+	color: #a7815a;
+}
+
+.cm-header {
+	color: #a7815a!important;
+}
+
+.art-submit {
+	width: 100%;
+	border-bottom: 1px solid #a7815a;
+	padding-bottom: 10px;
+}
+
+.art-copyright label {
+	font-weight: normal;
+}
+
+.btn-art-submit,
+.btn-art-save {
+	display: inline-block;
+	line-height: 18px;
+	color: #fff!important;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px 10px;
+	font-size: 12px;
+	border: none;
+	background-color: #a7815a;
+}
+
+.btn-art-box {
+	position: relative;
+}
+
+.label-alert {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	width: 14px;
+	height: 14px;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: normal;
+	display: inline-block;
+	background-color: #FF4500;
+	border-radius: 100%;
+}
+
+.art-pay,
+.art-pay:visited
+ {
+	color: #a7815a;
+}
+
+.art-pay:hover,.art-pay:active
+{
+	color: #FF4500;
 }
