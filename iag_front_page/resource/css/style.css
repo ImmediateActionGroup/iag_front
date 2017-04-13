@@ -703,7 +703,6 @@ button:active {
 	padding: 10px;
 	padding-left: 0;
 	padding-right: 0;
-	/*cursor: pointer;*/
 	border-bottom: 1px dashed #ccc;
 	transition: all ease-in-out 0.4s;
 }
@@ -1319,7 +1318,7 @@ button:active {
 
 .art-title-input,
 .art-keyword-input {
-	width: 60%;
+	width: 50%;
 	padding: 5px;
 	border: 1px solid #a7815a;
 	border-radius: 5px;
@@ -1337,6 +1336,7 @@ button:active {
 	color: #a7815a!important;
 	border: 1px solid #a7815a;
 	border-radius: 5px;
+	min-height: 500px;
 }
 
 .editormd-toolbar {
@@ -1402,12 +1402,41 @@ button:active {
 }
 
 .art-pay,
-.art-pay:visited
- {
+.art-pay:visited {
 	color: #a7815a;
 }
 
-.art-pay:hover,.art-pay:active
-{
+.art-pay:hover,
+.art-pay:active {
 	color: #FF4500;
+}
+
+.search-keyword {
+	color: #FF4500;
+}
+
+.search-result-art {
+	text-underline-color: #FF4500;
+	text-decoration: underline!important;
+}
+
+.search-art-con {
+	position: relative;
+	height: 60px;
+	margin-top: 0px;
+	word-break: break-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.search-art-con:after {
+	position: absolute;
+	content: "";
+	right: 0;
+	bottom: 0;
+    display: block;
+    width: 160px;
+    height: 20px;
+    background: -webkit-linear-gradient(left,rgba(255,255,255,0),#fff 96%);
+    background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(96%,#fff));
+    background: linear-gradient(to right,rgba(255,255,255,0),#fff 96%);
 }
