@@ -722,7 +722,8 @@ button:active {
 .btn-release:hover,
 .comment-send:hover,
 .btn-art-submit:hover,
-.btn-art-save:hover {
+.btn-art-save:hover,
+.atr-theme-sort button:hover {
 	transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
@@ -1442,6 +1443,19 @@ button:active {
 }
 .art-theme{
 	padding: 0!important;	
+}
+.atr-theme-sort{
+	float: right;
+	font-size: 14px;
+}
+.atr-theme-sort button{
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 10px;
+    font-size: 12px;
+    background-color: #a7815a;
+    border: none;
+    margin-left: 10px;
 }
 .art-theme-con{
 	display: inline-block;
