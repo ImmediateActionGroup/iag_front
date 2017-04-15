@@ -1423,7 +1423,7 @@ button:active {
 .search-art-con {
 	position: relative;
 	height: 60px;
-	margin-top: 0px;
+	margin: 0 0 5px 0;
 	word-break: break-all;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -1439,4 +1439,46 @@ button:active {
     background: -webkit-linear-gradient(left,rgba(255,255,255,0),#fff 96%);
     background: -webkit-gradient(linear,left top,right top,from(rgba(255,255,255,0)),color-stop(96%,#fff));
     background: linear-gradient(to right,rgba(255,255,255,0),#fff 96%);
+}
+.art-theme{
+	padding: 0!important;	
+}
+.art-theme-con{
+	display: inline-block;
+	position: relative;
+	margin-top: 20px;
+	width: 100%;
+	cursor: pointer;
+}
+.art-theme-con>img{
+	width: 100%;
+}
+.art-theme-title{
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #a7815a;
+	text-shadow: 0 0 1px #fff;
+	width: 100%;
+}
+.art-theme-look{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 20%;
+	opacity: 0;
+}
+.art-theme-look:hover{
+	display: inline-block;
+	background-color: rgba(256,256,256,0.5);
+	opacity: 1;
 }
