@@ -100,12 +100,13 @@
 		<script>
 			var editor = editormd("editormd", {
 				width: "100%",
-				autoHeight: true,
+				height: "450px",
 				path: "resource/others/editormd/", // Autoload modules mode, codemirror, marked... dependents libs path
 				emoji: true,
 				toolbarAutoFixed: true,
-				watch: false,
+				watch: true,
 				flowChart: true,
+				placeholder: "输入改变世界的文字吧......",
 				imageUpload: true,
 				imageFormats: ["jpg", "jpeg", "gif", "png", "bmp", "webp"],
 				onfullscreen: function() {
